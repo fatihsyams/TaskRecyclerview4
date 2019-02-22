@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".untukditempelin"
+    android:orientation="horizontal"
+    android:layout_marginBottom="10dp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/Logo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/villarreal"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:id="@+id/NamaClub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Club"
+            android:textSize="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="115dp"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:id="@+id/AsalClub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="England"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/NamaClub"
+            android:layout_marginLeft="115dp"
+            android:layout_marginBottom="10dp"/>
+    </RelativeLayout>
+
+</LinearLayout>
